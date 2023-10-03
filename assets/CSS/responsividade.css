@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 1340px){
+@media screen and (max-device-width: 1340px){
     .menu_list{
         display: flex;
         flex-direction: row;
@@ -15,7 +15,7 @@
 
 }
 
-@media only screen and (max-device-width: 1050px) {
+@media screen and (max-device-width: 1050px) {
 
     .principal{
         flex-direction: column-reverse;
@@ -79,7 +79,7 @@
     }
 }
 
-@media only screen and (max-device-width: 950px){
+@media screen and (max-device-width: 950px){
     .projetos_page{
         flex-direction: column-reverse;
         align-items: center;
@@ -104,7 +104,7 @@
 
 }
 
-@media only screen and (max-device-width: 650px) {
+@media screen and (max-device-width: 650px) {
     .principal{
         width: 100%;
     }
@@ -122,7 +122,7 @@
     }
 }
 
-@media only screen and (max-device-width: 400px){
+@media screen and (max-device-width: 400px){
     .principal-texto h1{
         font-size: 2rem;
     }
