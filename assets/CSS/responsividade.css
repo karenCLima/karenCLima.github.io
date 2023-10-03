@@ -123,11 +123,13 @@
 
     .f_img img{
         height: 5rem;
+        margin-left: 0;
     }
 
     footer{
         flex-direction: column;
         align-items: center;
+        height: 15.5rem;
     }
 
     .f_principal{
@@ -136,8 +138,31 @@
     }
 
     .f_principal p {
-        font-size: .5rem;
-        margin-top: 2%;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .f_contatos .f-badge .pequenas-badges{
+        height: 1.5rem;
+    }
+
+    .crs-card{
+        width: 102%;
+    }
+
+    .carrossel{
+        width: 102%;
+    }
+
+    .sobre-mim-texto{
+        width: 89%;
+    }
+
+    .meu_logo{
+        width: 14%;
+    }
+    header{
+        gap:3%;
     }
 }
 
