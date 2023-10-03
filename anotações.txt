@@ -1,0 +1,9 @@
+https://codepen.io/kootoopas/pen/kGPoaB - o fundo branco
+https://codepen.io/natewiley/pen/GgONKy - fundo de partícula
+https://vetores.org - link dos vetores de linguagem de programação
+https://commons.wikimedia.org - link dos vetores de linguagem de programação
+https://www.nicepng.com/ - link dos vetores de linguagem de programação
+https://www.canva.com - link do meu logo
+https://www.dafont.com/pt/origin-tech.font?text=KAREN+LIMA&psize=l - fonte do das fontes dos títulos e subtítulos
+https://www.fontsquirrel.com/fonts/raleway -fonte da fonte dos textos
+escreve npx vite para rodar

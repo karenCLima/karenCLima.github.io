@@ -1,0 +1,356 @@
+@font-face {
+    font-family: "origin_tech";
+    src: url(../fonts/origin_tech/OriginTech\ personal\ use.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/raleway/Raleway-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(215, 237, 222,0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4.375rem;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+
+.meu-logo{
+    height: 4.375rem;
+    width: 5%;
+    margin-left: 2%;
+}
+
+.menu_list{
+    float: right;
+    padding-left: 10%;
+    width: 42%;
+}
+
+.menu_list ul{
+    list-style: none;
+}
+
+.menu_list li{
+    float: left;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 4% 4% 4% 4%;
+}
+
+.menu_list li a{
+    text-decoration: none;
+    color:rgb(107, 116, 119);
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-weight: bolder;
+    font-family: "origin_tech";
+}
+
+.menu_list li:hover{
+    background-color: #94e0ab;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    gap: 4%;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.principal img{
+    width: 32%;
+    margin-top: 8%;
+}
+
+.principal h1{
+    font-family: "origin_tech";
+    font-size: 6.5rem;
+    color: rgb(107, 116, 119);
+    margin-top: 15%;
+}
+
+.principal h2{
+    font-family: "origin_tech";
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(107, 116, 119);
+}
+
+.subtitulos{
+    font-family: "origin_tech";
+    text-align: left;
+    font-size: 2.5rem;
+    color: rgb(107, 116, 119); 
+    margin-left: 2%;
+}
+
+.texto{
+    font-family: "Raleway";
+    color: rgb(107, 116, 119); 
+}
+
+.card-body h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.card-body  p{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.card-body  a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.sobre-mim{
+    display: flex;
+    gap:5%;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.sobre-mim img{
+    width: 40%;
+    border-radius: 11%;
+    margin: 3% 3% 3% 0%;
+}
+
+.sobre-mim-texto{
+    width: 60%;
+}
+
+.sobre-mim-texto p{
+    margin: 2% 0% 3% 3%;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.skills-badges{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.badges{
+    height: 6.25rem;
+    margin: 3% 0.063rem 3% 3%;
+    background-color: transparent;
+}
+
+.badges:hover{
+    height: 7.25rem;
+    box-shadow: 0 0 1.5rem 0.313rem  rgba(148, 224, 171, 0.8);
+}
+
+.sobre-mim-texto .l-badge{
+    margin: 1% 0.030rem 3% 3%;
+    
+}
+
+.l-badge .pequenas-badges{
+    height: 3.7rem;
+    width: 100%;
+    margin: 3% 0.063rem 3% 3%;
+    background-color: transparent;
+    box-sizing:content-box;
+}
+
+.l-badge .pequenas-badges:hover{
+    height: 5.7rem;
+}
+
+.mini-badges{
+    height: 2.7rem;
+    width: auto;
+}
+
+.carousel-card{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    box-sizing: content-box;
+    margin: 1% 2% 3% 2%;
+    padding:1% 2% 3% 2% ;
+}
+
+.carrossel{
+    width: 50%;
+}
+
+.fundo{
+    background-color:rgba(107,116,119,0.9);
+    border-radius: 50%;
+}
+
+.carrossel .carousel-item .active{
+    min-width: 40%;
+    max-height: 20%;
+    border-width: 5px;
+    border-color: rgb(142, 162, 153);
+}
+
+.carousel-item img{
+    height: 700px;
+}
+
+.crs-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 50%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.card-body{
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.formulario{
+    width: 100%;
+}
+
+.formulario p{
+    margin-left: 2%;
+    font-size: 1.2rem;
+}
+
+.centraliza{
+    display: grid;
+    place-items: center;
+}
+
+.centraliza label{
+    font-size: 1.2rem;
+}
+
+.tamanho-forms{
+    width: 600px;
+}
+
+.color-botao{
+    background-color: rgba(215, 237, 222,1);
+    font-family: "Raleway";
+    font-weight: bold;
+    color: rgb(107, 116, 119); 
+    border-color: rgba(215, 237, 222,1);
+}
+
+.color-botao:hover{
+    background-color: #94e0ab;
+    border-color: #94e0ab;
+}
+
+footer{
+    background-color: rgba(215, 237, 222,0.8);
+    width: 100%;
+    height: 11.5rem;
+    margin-top: 3%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: 3%;
+    float: left;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+}
+
+.f_principal{
+    display: flex;
+    gap: 5%;
+    float: left;
+    flex-direction: row;
+    justify-content: end;
+    align-items:flex-start;
+    height: 11.5rem;
+    width: 50%;
+}
+
+.f_principal a{
+    text-decoration: none;
+}
+
+.f_img img{
+   height: 9rem;
+    margin-top: 16%;
+    margin-left: 19%;
+}
+
+.f_principal .f_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    gap: 5%;
+    height: 90%;
+} 
+
+.f_list a{
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.f_principal p {
+    font-size: 1rem;
+    margin-top: 2%;
+}
+
+.f_principal .f_contatos{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    margin-top: 2%;
+    margin-right: 9%;
+}
+
+.f_contatos a{
+    margin-left: 1%;
+}
+
+.f_contatos .f-badge .pequenas-badges{
+    height: 2rem;
+    width: 100%;
+    margin: 3% 0.063rem 3% 3%;
+    background-color: transparent;
+    box-sizing:content-box;
+}
+
+.fontes {
+    font-family: "Raleway";
+    color: rgb(107, 116, 119); 
+    font-size: 1rem; 
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}

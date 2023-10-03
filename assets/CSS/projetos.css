@@ -1,0 +1,47 @@
+.projetos_page{
+    margin-top:2%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-family: "origin_tech";
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(107, 116, 119); 
+    margin-left: 2%;
+}
+
+.texto{
+    font-family: "Raleway";
+    color: rgb(107, 116, 119); 
+}
+
+.mini-badges{
+    height: 5rem;
+    width: auto;
+}
+
+.projeto_img{
+    margin-left: 2%;
+    width: 60%;
+    height: 40rem;
+}
+
+.projeto_descricao{
+    width: 34%;
+}
+
+.projeto_descricao h3{
+    font-size: 2rem;
+}
+
+.projetos_page .projeto_descricao p,a{
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
