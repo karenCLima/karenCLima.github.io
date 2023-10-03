@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 1340px){
+@media only screen and (max-device-width: 1400px){
     .menu_list{
         display: flex;
         flex-direction: row;
@@ -15,7 +15,7 @@
 
 }
 
-@media screen and (max-device-width: 1050px) {
+@media only screen and (max-device-width: 1050px) {
 
     .principal{
         flex-direction: column-reverse;
@@ -79,7 +79,7 @@
     }
 }
 
-@media screen and (max-device-width: 950px){
+@media only screen and (max-device-width: 950px){
     .projetos_page{
         flex-direction: column-reverse;
         align-items: center;
@@ -104,7 +104,7 @@
 
 }
 
-@media screen and (max-device-width: 650px) {
+@media only screen and (max-device-width: 650px) {
     .principal{
         width: 100%;
     }
@@ -120,9 +120,13 @@
     .formulario textarea{
         width: 80%;
     }
+
+    .f_img{
+        height: 5rem;
+    }
 }
 
-@media screen and (max-device-width: 400px){
+@media only screen and (max-device-width: 400px){
     .principal-texto h1{
         font-size: 2rem;
     }
@@ -140,5 +144,9 @@
 
     .menu_list{
         gap: 0;
+    }
+
+    .f_img{
+        height: 3rem;
     }
 }
