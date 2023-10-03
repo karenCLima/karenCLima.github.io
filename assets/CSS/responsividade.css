@@ -124,6 +124,11 @@
     .f_img img{
         height: 5rem;
     }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-device-width: 400px){
